@@ -1,0 +1,254 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\VideoPlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VideoPlayer.ico"
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VIDEOPLAYER_DIALOG DIALOGEX 0, 0, 380, 287
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "VideoPlayer"
+MENU IDR_MEDIAPLAYER_MENU
+FONT 9, "??", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MediaPlay_OCX,
+                    "{6BF52A52-394A-11D3-B153-00C04F79FAA6}",WS_TABSTOP,18,12,346,264
+END
+
+IDD_ABOUT_DEVELOPER_DIALOG DIALOGEX 0, 0, 187, 58
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 10, "Yu Gothic", 400, 0, 0x0
+BEGIN
+    LTEXT           "Developer: Tom González D. Pérez",IDC_STATIC_DEVELOPER,35,17,130,8
+    PUSHBUTTON      "OK",IDOK,115,32,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "WMPDemo"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "WMPDemo"
+            VALUE "LegalCopyright", "Copyright (C) 2015"
+            VALUE "OriginalFilename", "VideoPlayer.EXE"
+            VALUE "ProductName", "VideoPlayer"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_VIDEOPLAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 280
+    END
+
+    IDD_ABOUT_DEVELOPER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_VIDEOPLAYER_DIALOG DLGINIT
+BEGIN
+    IDC_MediaPlay_OCX, 0x376, 166, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x0008, 0x0000, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0000, 0x3ff0, 0x0003, 0x0000, 0x0000, 0x0005, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0003, 0x0001, 0x0000, 
+0x000b, 0xffff, 0x0003, 0x0000, 0x0000, 0x000b, 0xffff, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0003, 0x0032, 0x0000, 0x000b, 0x0000, 0x0008, 0x000a, 
+0x0000, 0x0066, 0x0075, 0x006c, 0x006c, 0x0000, 0x000b, 0x0000, 0x000b, 
+0x0000, 0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0x0000, 0x35a4, 0x0000, 
+0x28ee, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MEDIAPLAYER_MENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        IDC_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Quit",                        IDC_FILE_QUIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About Dev.",                  IDC_HELP_ABOUT_DEVELOPER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUT_DEVELOPER_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_VIDEOPLAYER_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\VideoPlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
